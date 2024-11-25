@@ -20,8 +20,5 @@ window.onload = function() {
   if (paloSeleccionado === "♥" || paloSeleccionado === "♦") {
     paloArriba.style.color = "red";
     paloAbajo.style.color = "red";
-  } else {
-    paloArriba.style.color = "black";
-    paloAbajo.style.color = "black";
   }
 };
